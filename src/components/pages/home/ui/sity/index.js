@@ -6,11 +6,11 @@ export default function HomeSity() {
   return (
     <div className="w-full bg-[url('/Click.png')]">
       {/* Click.png */}
-      <Contianer className={"mt-[-120px]"}>
+      <Contianer className={"mt-[-100px]"}>
         <div className="flex justify-between gap-[10px] items-center pb-[40px]">
           <div className="w-full max-w-[745px]">
-            <h2 class="text-white text-[180px] font-normal CITY ">ISTANBUL</h2>
-            <h2 class="text-white text-end text-[180px] font-normal mt-[-100px] ">
+            <h2 class="text-white text-[140px] font-extrabold  ">ISTANBUL</h2>
+            <h2 class="text-white text-end text-[140px] font-extrabold mt-[-90px] ">
               CITY
             </h2>
           </div>
