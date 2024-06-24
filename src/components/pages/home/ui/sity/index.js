@@ -8,7 +8,7 @@ export default function HomeSity() {
       {/* Click.png */}
       <Contianer className={"mt-[-100px]"}>
         <div className="flex justify-between gap-[10px] items-center pb-[40px]">
-          <div className="w-full max-w-[745px]">
+          <div className="w-full max-w-[690px]">
             <h2 class="text-white text-[140px] font-extrabold  ">ISTANBUL</h2>
             <h2 class="text-white text-end text-[140px] font-extrabold mt-[-90px] ">
               CITY
