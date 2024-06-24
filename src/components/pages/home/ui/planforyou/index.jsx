@@ -49,9 +49,9 @@ export default function PlanForYou() {
             height={732}
           />
           <Image
-            className="absolute top-[-180px] left-[-110px] z-1"
+            className="absolute top-[-160px] left-[-90px] z-1"
             src={"/f3.png"}
-            width={152}
+            width={132}
             height={162}
           />
           <Image
