@@ -22,7 +22,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Inter';
-    background: #0E3E36;
+  background: #0E3E36;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -47,17 +48,18 @@ li {
 button {
   cursor: pointer;
 }
+
 input {
   outline: none;
 }
-input{
+
+input {
   opacity: 1 !important;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
   color: #45110e1a
 }
-

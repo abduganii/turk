@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <Contianer className={"mb-[154px] z-20"}>
+    <Contianer className={"mb-[154px] z-20"} id="About">
       <div
         className={
           "bg-[url('/Rectangle11001449.png')] pl-[41px] pr-[30px] pb-[18px] pt-[26px] flex items-end justify-between relative"

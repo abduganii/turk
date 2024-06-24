@@ -7,41 +7,50 @@ import {
 import Image from "next/image";
 import React from "react";
 import Contianer from "../container";
+import Link from "next/link";
 
 const navbar = [
   {
     id: 1,
-    label: "Проекты"
+    label: "Проекты",
+    link: "#project"
   },
   {
     id: 2,
-    label: "Концепция"
+    label: "Концепция",
+    link: "#Complex"
   },
   {
     id: 3,
-    label: "Планировки"
+    label: "Планировки",
+    link: "#plan"
   },
   {
     id: 4,
-    label: "Локация"
+    label: "Локация",
+    link: "#About"
   }
 ];
 const navbar1 = [
   {
     id: 1,
-    label: "О нас"
+    label: "О нас",
+    link: "#About"
   },
   {
     id: 2,
-    label: "Галерея"
+    label: "Галерея",
+    link: "#Phone"
   },
   {
     id: 3,
-    label: "Контакты"
+    label: "Контакты",
+    link: "#About"
   },
   {
     id: 4,
-    label: "+90 000-00-00"
+    label: "+90 000-00-00",
+    link: "#"
   }
 ];
 
@@ -56,9 +65,13 @@ export default function Header() {
             style={{ background: "#163B37" }}
           >
             {navbar?.map((e) => (
-              <p key={e?.id} class="text-white text-lg font-medium ">
+              <Link
+                href={e?.link}
+                key={e?.id}
+                class="text-white text-lg font-medium "
+              >
                 {e?.label}
-              </p>
+              </Link>
             ))}
           </div>
         </div>
@@ -100,9 +113,13 @@ export default function Header() {
             style={{ background: "#163B37" }}
           >
             {navbar1?.map((e) => (
-              <p key={e?.id} class="text-white text-lg font-medium ">
+              <Link
+                href={e?.link}
+                key={e?.id}
+                class="text-white text-lg font-medium "
+              >
                 {e?.label}
-              </p>
+              </Link>
             ))}
           </div>
         </div>

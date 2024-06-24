@@ -7,7 +7,7 @@ const arr1 = ["/4.jpg", "/5.jpg", "/6.jpg", "/5.jpg", "/4.jpg", "/5.jpg"];
 
 export default function PhoneSection() {
   return (
-    <>
+    <div id="Phone">
       <Contianer>
         <h3 class="max-w-[643px]  w-full text-white text-[80px] font-normal leading-[87px] tracking-[4px] mt-[140px] mb-[82px]">
           Фотогорафии от сердце{" "}
@@ -39,6 +39,6 @@ export default function PhoneSection() {
           </div>
         </div>
       </Marquee>
-    </>
+    </div>
   );
 }

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function PlanForYou() {
   return (
-    <Contianer className={"pt-[316px] pb-[206px]"}>
+    <Contianer className={"pt-[316px] pb-[206px]"} id="planForYou">
       <h3 class="max-w-[643px] w-full text-white text-[80px] font-normal leading-[87px] tracking-[4px] mb-[75px]">
         Планировки для вас{" "}
       </h3>

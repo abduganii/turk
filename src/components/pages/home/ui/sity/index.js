@@ -4,7 +4,7 @@ import React from "react";
 
 export default function HomeSity() {
   return (
-    <div className="w-full bg-[url('/Click.png')]">
+    <div className="w-full bg-[url('/Click.png')]" id='project'>
       {/* Click.png */}
       <Contianer className={"mt-[-100px]"}>
         <div className="flex justify-between gap-[10px] items-center pb-[40px]">

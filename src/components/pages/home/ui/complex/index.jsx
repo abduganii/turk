@@ -19,7 +19,7 @@ const data = [
 export default function Complex() {
   const [id,setId] = useState(1)
   return (
-    <div className='w-full pt-[100px] pb-[246px]'>
+    <div className='w-full pt-[100px] pb-[246px]' id='Complex' >
           <Contianer>
         <h3 class="w-full max-w-[650px] text-white text-5xl font-medium  uppercase leading-[58px] tracking-widest">КонЦЕПЦИЯ ЖИЛОГО КОМПЛЕКСА</h3>
         <div className='flex items-center gap-[50px] mb-[46px] mt-[52px]'>

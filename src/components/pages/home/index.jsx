@@ -24,7 +24,7 @@ export default function HomePage() {
       <PlanForYou />
       <LifeCompalex />
       <PhoneSection />
-      <div className="bg-[url('/Group48098604.png')]">
+      <div className="bg-[url('/Group48098604.png')]" id="About">
         <ContactsSection />
         <AboutUs />
       </div>

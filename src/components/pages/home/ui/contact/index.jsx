@@ -5,7 +5,7 @@ import React from "react";
 
 export default function ContactsSection() {
   return (
-    <Contianer className={"pb-[91px] "}>
+    <Contianer className={"pb-[91px] "} id="Contacts">
       <h3 class="max-w-[643px] w-full text-white text-[80px] font-normal leading-[87px] tracking-[4px]  pt-[196px]">
         Получить консультацию
       </h3>

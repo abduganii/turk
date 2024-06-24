@@ -28,7 +28,7 @@ const data = [
 export default function LifeCompalex() {
   const [id, setId] = useState(1);
   return (
-    <>
+    <div id="LifeCompalex">
       <Contianer>
         <h3 class="max-w-[643px] w-full text-white text-[80px] font-normal leading-[87px] tracking-[4px] mb-[75px]">
           Жизнь в комплексе{" "}
@@ -55,6 +55,6 @@ export default function LifeCompalex() {
           height={400}
         />
       </div>
-    </>
+    </div>
   );
 }
