@@ -19,7 +19,7 @@ export default function HomePage() {
         height={800}
         objectFit="cover"
       />
-      {/*  <HomeSity />
+       <HomeSity />
       <Complex />
       <Plan />
       <PlanForYou />
@@ -28,7 +28,7 @@ export default function HomePage() {
       <div className="bg-[url('/Group48098604.png')]" id="About">
         <ContactsSection />
         <AboutUs />
-      </div> */}
+      </div>
     </>
   );
 }
