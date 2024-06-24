@@ -51,7 +51,10 @@ export default function Header() {
       <Contianer className={"flex justify-between pt-[11px] top-0"}>
         <div>
           <p class="pb-[23px] text-white text-lg font-medium ">г.Ташкент</p>
-          <div class="bg-slate-800 rounded-[3px] backdrop-blur-[74px] flex gap-[20px] py-[10px] px-[15px]">
+          <div
+            class=" rounded-[3px] backdrop-blur-[74px] flex gap-[20px] py-[10px] px-[15px]"
+            style={{ background: "#163B37" }}
+          >
             {navbar?.map((e) => (
               <p key={e?.id} class="text-white text-lg font-medium ">
                 {e?.label}
@@ -59,25 +62,43 @@ export default function Header() {
             ))}
           </div>
         </div>
-        <div class="px-[30px] py-[10px] pb-[18px]  bg-slate-800">
+        <div
+          class="px-[30px] py-[10px] pb-[18px] "
+          style={{ background: "#163B37" }}
+        >
           <Image src={"/logo.svg"} width={120} height={105} />
         </div>
         <div>
           <div className="flex justify-end gap-[4px]  pb-[23px]">
-            <div class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]">
+            <div
+              class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]"
+              style={{ background: "#12121221" }}
+            >
               <TwitterIcons />
             </div>
-            <div class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]">
+            <div
+              class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]"
+              style={{ background: "#12121221" }}
+            >
               <YoutobeIcons />
             </div>
-            <div class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]">
+            <div
+              class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]"
+              style={{ background: "#12121221" }}
+            >
               <FaceBookIcons />
             </div>
-            <div class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]">
+            <div
+              class="p-[6px] bg-neutral-900/opacity-10 rounded-[7px] backdrop-blur-[54px]"
+              style={{ background: "#12121221" }}
+            >
               <TelegramIcons />
             </div>
           </div>
-          <div class="bg-slate-800 rounded-[3px] backdrop-blur-[74px] flex gap-[20px] py-[10px] px-[15px]">
+          <div
+            class=" rounded-[3px] backdrop-blur-[74px] flex gap-[20px] py-[10px] px-[15px]"
+            style={{ background: "#163B37" }}
+          >
             {navbar1?.map((e) => (
               <p key={e?.id} class="text-white text-lg font-medium ">
                 {e?.label}
