@@ -5,8 +5,8 @@ import React from "react";
 export default function Plan() {
   return (
     <div className="w-full" id="plan">
-      <Contianer className="w-full pb-[68px] //bg-[url('/Group48098590.svg')]1  bg-right-bottom bg-no-repeat">
-        <h3 class="w-full max-w-[650px] text-white text-5xl font-medium  uppercase leading-[58px] tracking-widest">
+      <Contianer className="w-full pb-[38px] md:pb-[68px] //bg-[url('/Group48098590.svg')]1  bg-right-bottom bg-no-repeat">
+        <h3 class="w-full max-w-[650px] text-white text-[28px] md:text-5xl font-medium  uppercase leading-[58px] tracking-widest">
           Планировки для вашего удобство
         </h3>
       </Contianer>
@@ -54,6 +54,7 @@ export default function Plan() {
               </div>
             </div>
           </div>
+        
         </Contianer>
       </div>
     </div>

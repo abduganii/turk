@@ -19,9 +19,9 @@ export default function HomePage() {
         height={800}
         objectFit="cover"
       />
-       <HomeSity />
-      <Complex />
-      <Plan />
+      <HomeSity />
+       <Complex />
+       <Plan />
       <PlanForYou />
       <LifeCompalex />
       <PhoneSection />
