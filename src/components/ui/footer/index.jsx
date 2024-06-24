@@ -43,7 +43,7 @@ export default function Footer() {
             designed by:
           </p>
           <a
-            href="https://getter.uz/"
+            href="https://getter.uz"
             target="_blank"
             class="text-right text-white opacity-60 text-lg font-extrabold "
           >
