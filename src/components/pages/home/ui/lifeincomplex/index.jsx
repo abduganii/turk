@@ -31,7 +31,7 @@ export default function LifeCompalex() {
       <>
             
     <Contianer >
-        <h3 class="w-[643px] text-white text-[80px] font-normal leading-[87px] tracking-[4px] mb-[75px]">Жизнь в комплексе </h3>
+        <h3 class="max-w-[643px] w-full text-white text-[80px] font-normal leading-[87px] tracking-[4px] mb-[75px]">Жизнь в комплексе </h3>
         <div className='flex gap-[40px]'>
             {
             data?.map(e => (

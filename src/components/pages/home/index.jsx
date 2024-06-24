@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import Complex from './ui/complex'
+import ContactsSection from './ui/contact'
 import LifeCompalex from './ui/lifeincomplex'
+import PhoneSection from './ui/photo'
 import Plan from './ui/plan'
 import PlanForYou from './ui/planforyou'
 import HomeSity from './ui/sity'
@@ -14,7 +16,9 @@ export default function HomePage() {
       <Complex />
       <Plan/>
       <PlanForYou />
-      <LifeCompalex/>
+      <LifeCompalex />
+      <PhoneSection />
+      <ContactsSection/>
     </div>
   )
 }
