@@ -8,7 +8,7 @@ export default function PlanForYou() {
       <h3 class="max-w-[643px] w-full text-white text-[80px] font-normal leading-[87px] tracking-[4px] mb-[75px]">
         Планировки для вас{" "}
       </h3>
-      <div className="flex items-start gap-[140px] mt-[-278px]">
+      <div className="flex items-start gap-[142px] mt-[-278px]">
         <div className="max-w-[546px] mt-[278px] aspect-[0.7/1] h-[732px] w-full relative">
           <Image
             className="aspect-[0.7/1] w-full z-10 absolute"
@@ -17,15 +17,15 @@ export default function PlanForYou() {
             height={732}
           />
           <Image
-            className="absolute top-[-236px] right-[-66px] z-1"
+            className="absolute top-[-216px] right-[-46px] z-1"
             src={"/f1.png"}
-            width={182}
+            width={152}
             height={413}
           />
           <Image
-            className="absolute top-[24px] right-[-112px] rotate-6 z-1"
+            className="absolute top-[54px] right-[-92px]  z-1"
             src={"/f2.png"}
-            width={180}
+            width={143}
             height={415}
           />
           <Image
@@ -49,21 +49,21 @@ export default function PlanForYou() {
             height={732}
           />
           <Image
-            className="absolute top-[-230px] left-[-120px] z-1"
+            className="absolute top-[-180px] left-[-110px] z-1"
             src={"/f3.png"}
-            width={182}
+            width={152}
             height={162}
           />
           <Image
-            className="absolute top-[-236px] right-[-66px] z-1"
+            className="absolute top-[-126px] right-[-66px] z-1"
             src={"/f1.png"}
-            width={182}
+            width={143}
             height={413}
           />
           <Image
-            className="absolute bottom-[11px] right-[-122px] rotate-6 z-1"
+            className="absolute bottom-[11px] right-[-92px] rotate-6 z-1"
             src={"/f2.png"}
-            width={180}
+            width={143}
             height={415}
           />
         </div>
