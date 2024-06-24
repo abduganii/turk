@@ -11,14 +11,15 @@ import AboutUs from "./ui/about-us";
 
 export default function HomePage() {
   return (
-    <div>
+    <>
       <Image
         src={"/Group1.png"}
-        className="w-full "
+        className="w-full min-h-[600px] object-cover"
         width={2900}
         height={800}
+        objectFit="cover"
       />
-      <HomeSity />
+      {/*  <HomeSity />
       <Complex />
       <Plan />
       <PlanForYou />
@@ -27,7 +28,7 @@ export default function HomePage() {
       <div className="bg-[url('/Group48098604.png')]" id="About">
         <ContactsSection />
         <AboutUs />
-      </div>
-    </div>
+      </div> */}
+    </>
   );
 }
