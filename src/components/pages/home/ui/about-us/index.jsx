@@ -7,7 +7,7 @@ const AboutUs = () => {
     <Contianer className={"mb-[154px] z-20"} id="About">
       <div
         className={
-          "bg-[url('/Rectangle11001449.png')] pl-[41px] pr-[30px] pb-[18px] pt-[26px] flex items-end justify-between relative"
+          "bg-[url('/Rectangle11001449.png')] pl-[41px] pr-[30px] pb-[18px] pt-[26px] flex flex-col  md:flex-row  items-end justify-between relative"
         }
       >
         <div class="w-full max-w-[497px] bg-emerald-900 shadow border border-orange-200 px-[70px] pt-[74px] pb-[190px]">

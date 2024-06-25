@@ -6,6 +6,7 @@ export default function InputGlobal({
   type,
   placeholder,
   value,
+  className,
   register,
   ...other
 }) {
@@ -14,7 +15,9 @@ export default function InputGlobal({
       {
         (type = "tel" ? (
           <ReactInputMask
-            className="bg-emerald-900 w-full shadow border border-orange-200 px-[30px] py-[4px] opacity-40 text-white text-xl font-medium  leading-[58px]"
+            className={`bg-emerald-900 w-full shadow border border-orange-200 px-[30px] py-[4px] opacity-40 text-white text-xl font-medium  leading-[58px] ${
+              className && className
+            }`}
             placeholder={placeholder}
             onChange={onChange}
             value={value}
@@ -25,7 +28,9 @@ export default function InputGlobal({
         ) : (
           <input
             type={type}
-            className="bg-emerald-900 w-full shadow border border-orange-200 px-[30px] py-[4px] opacity-40 text-white text-xl font-medium  leading-[58px]"
+            className={`bg-emerald-900 w-full shadow border border-orange-200 px-[30px] py-[4px] opacity-40 text-white text-xl font-medium  leading-[58px] ${
+              className && className
+            }`}
             placeholder={placeholder}
             value={value}
             onChange={onChange}

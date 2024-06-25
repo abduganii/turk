@@ -4,7 +4,10 @@ import React from "react";
 
 export default function PlanForYou() {
   return (
-    <Contianer className={"pt-[100px] pb-[100px] xl:pt-[316px] xl:pb-[206px]"} id="planForYou">
+    <Contianer
+      className={"pt-[100px] pb-[100px] xl:pt-[316px] xl:pb-[206px]"}
+      id="planForYou"
+    >
       <h3 class="max-w-[643px] w-full text-white text-[28px] md:text-[80px] font-normal leading-[87px] tracking-[4px] mb-[10px]  sm:mb-[75px]">
         Планировки для вас{" "}
       </h3>
@@ -41,9 +44,9 @@ export default function PlanForYou() {
             height={158}
           />
         </div>
-        <div className="max-w-[253px] tablet:max-w-[426px] mt-[-160px] mr-[20px] sm:mr-[100px] lg:mr-0 lg:mt-0 self-end xxl:max-w-[546px] aspect-[0.7/1] h-[339px] tablet:h-[560px] xxl:h-[732px] w-full relative">
+        <div className="max-w-[253px] lg:-translate-y-64 tablet:max-w-[426px] mt-[-160px] mr-[20px] sm:mr-[100px] lg:mr-0 lg:mt-0 self-end xxl:max-w-[546px] aspect-[0.7/1] h-[339px] tablet:h-[560px] xxl:h-[732px] w-full relative">
           <Image
-            className="aspect-[0.7/1] w-full z-10 absolute"
+            className="aspect-[0.7/1] w-full z-10 absolute "
             src={"/Rectangle5.png"}
             width={546}
             height={732}

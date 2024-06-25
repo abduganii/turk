@@ -20,15 +20,15 @@ export default function HomePage() {
         objectFit="cover"
       />
       <HomeSity />
-       <Complex />
-       <Plan />
+      <Complex />
+      <Plan />
       <PlanForYou />
-     <LifeCompalex />
-        <PhoneSection />
+      <LifeCompalex />
+      <PhoneSection />
       <div className="bg-[url('/Group48098604.png')]" id="About">
         <ContactsSection />
         <AboutUs />
-      </div> 
+      </div>
     </>
   );
 }

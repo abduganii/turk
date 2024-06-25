@@ -6,19 +6,19 @@ import React from "react";
 export default function ContactsSection() {
   return (
     <Contianer className={"pb-[91px] "} id="Contacts">
-      <h3 class="max-w-[643px] w-full text-white text-[80px] font-normal leading-[87px] tracking-[4px]  pt-[196px]">
+      <h3 class="max-w-[643px] w-full text-white text-[28px] md:text-[80px] font-normal leading-[87px] tracking-[4px]  pt-[40px] md:pt-[196px]">
         Получить консультацию
       </h3>
-      <div className="flex items-center gap-[78px]">
-        <div className="flex gap-5 w-full max-w-[1002px]">
+      <div className="flex flex-wrap sm:flex-nowrap items-center gap-[30px] sm:gap-[78px]">
+        <div className="flex flex-wrap md:flex-nowrap gap-5 w-full max-w-[1002px]">
           <InputGlobal
-            style={{ width: "50%" }}
+            className={"w-full md:w-1/2"}
             type={"text"}
             placeholder={"Ваше имя"}
           />
           <InputGlobal
             mask="+\9\9\8-99-999-99-99"
-            style={{ width: "50%" }}
+            className={"w-full md:w-1/2"}
             type={"tel"}
             placeholder={"номер телефона"}
           />
