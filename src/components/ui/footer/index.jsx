@@ -3,7 +3,7 @@ import Contianer from "../container";
 
 export default function Footer() {
   return (
-    <Contianer className="flex items-end justify-between mb-[185px]">
+    <Contianer className="flex flex-wrap gap-[10px] items-end justify-between mb-[185px]">
       <div className="w-full max-w-[421px]">
         <p class="text-white opacity-60 text-sm font-medium uppercase leading-snug">
           жилой комплекс “ISTANBUL CITY”
@@ -38,7 +38,7 @@ export default function Footer() {
         >
           +998 90 000-00-00
         </a>
-        <div className="flex items-center mt-[20px]">
+        <div className="flex flex-wrap items-center mt-[20px]">
           <p class="text-right text-white opacity-60 text-sm font-medium ">
             designed by:
           </p>
