@@ -6,7 +6,7 @@ import React from "react";
 export default function ContactsSection() {
   return (
     <Contianer className={"pb-[91px] "} id="Contacts">
-      <h3 class="max-w-[643px] w-full text-white text-[28px] md:text-[80px] font-normal leading-[87px] tracking-[4px]  pt-[40px] md:pt-[196px]">
+      <h3 class="max-w-[643px] w-full text-white text-[28px] md:text-[80px] font-normal leading-[38px] md:leading-[87px] tracking-[4px]  pt-[40px] pb-[20px] md:pt-[196px]">
         Получить консультацию
       </h3>
       <div className="flex flex-wrap sm:flex-nowrap items-center gap-[30px] sm:gap-[78px]">

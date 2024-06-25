@@ -9,7 +9,7 @@ export default function PhoneSection() {
   return (
     <div id="Phone">
       <Contianer>
-        <h3 class="max-w-[643px]  w-full text-white text-[28px] md:text-[80px] font-normal md:tracking-[4px] mt-[50px] mb-[30px] md:mt-[140px] md:mb-[82px]">
+        <h3 class="max-w-[643px]  w-full text-white text-[28px] md:text-[80px] font-normal md:tracking-[4px] mt-[46px] sm:mt-[50px] mb-[30px] md:mt-[140px] md:mb-[82px]">
           Фотогорафии от сердце{" "}
         </h3>
       </Contianer>

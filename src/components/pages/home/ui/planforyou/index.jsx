@@ -5,10 +5,12 @@ import React from "react";
 export default function PlanForYou() {
   return (
     <Contianer
-      className={"pt-[100px] pb-[100px] xl:pt-[316px] xl:pb-[206px]"}
+      className={
+        " pt-[50px] pb-[46px] sm:pt-[100px] sm:pb-[100px] xl:pt-[316px] xl:pb-[206px]"
+      }
       id="planForYou"
     >
-      <h3 class="max-w-[643px] w-full text-white text-[28px] md:text-[80px] font-normal leading-[87px] tracking-[4px] mb-[10px]  sm:mb-[75px]">
+      <h3 class="max-w-[643px] w-full text-white text-[28px] md:text-[80px] font-normal   leading-[38px] md:leading-[87px] tracking-[4px] mb-[10px]  sm:mb-[75px]">
         Планировки для вас{" "}
       </h3>
       <div className="flex flex-col lg:flex-row items-start gap-[50px] xxl:gap-[142px]  mt-[-258px] xxl:mt-[-278px]">
