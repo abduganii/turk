@@ -20,14 +20,21 @@ module.exports = {
         "0.7/1": "0.75/ 1",
         "1.3/1": "1.3/ 1",
         "2.3/1": "2.3/ 1"
-      }
+      },
+       backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '56%': '56%',
+    }
     },
     screens: {
       sm: "640px",
       md: "768px",
       tablet: "880px",
       lg: "1024px",
-      xl: "1280px"
+      xl: "1280px",
+      xxl: "1380px"
     }
     
   },

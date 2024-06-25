@@ -41,7 +41,7 @@ export default function HomeSity() {
               height={457}
             />
             <Image
-              className="w-[186px] md:w-[360px] absolute left-[60px] md:left-[99px] top-[70px] md:top-[130px]  object-cover h-[266px] md:h-[515px]"
+              className="w-[186px] md:w-[310px] absolute left-[60px] md:left-[9px] top-[70px] md:top-[130px]  object-cover h-[266px] md:h-[515px]"
               src="/logoa.png"
               width={360}
               height={515}

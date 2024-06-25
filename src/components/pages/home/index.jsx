@@ -23,12 +23,12 @@ export default function HomePage() {
        <Complex />
        <Plan />
       <PlanForYou />
-      <LifeCompalex />
-      <PhoneSection />
+     <LifeCompalex />
+        <PhoneSection />
       <div className="bg-[url('/Group48098604.png')]" id="About">
         <ContactsSection />
         <AboutUs />
-      </div>
+      </div> 
     </>
   );
 }
