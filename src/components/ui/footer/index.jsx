@@ -44,7 +44,7 @@ export default function Footer() {
           href="tel:+998900000000"
           class="text-white opacity-60 text-sm font-medium  leading-snug hidden sm:inline-block"
         >
-          +998 90 000-00-00
+         +998 78 122-22-20
         </a>
         <div className="flex flex-wrap items-center sm:mt-[20px]">
           <p class="text-right text-white opacity-60 text-sm font-medium ">
