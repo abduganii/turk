@@ -31,7 +31,7 @@ export default function Footer() {
               phone
             </p>
             <div class="opacity-40 text-white text-[13px] font-medium">
-              +998 90 000-00-00
+              +998 78 122-22-20
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
       <div>
         <a
-          href="tel:+998900000000"
+          href="tel:++998781222220"
           class="text-white opacity-60 text-sm font-medium  leading-snug hidden sm:inline-block"
         >
          +998 78 122-22-20
