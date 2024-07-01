@@ -19,7 +19,7 @@ export default function ProductOnePage() {
                 height={811 }
         />
         
-        <div className='absolute  top-0  right-[8px] w-full'  onMouseMove={(e) => {
+        <div className='absolute  top-0  left-0  w-full '  onMouseMove={(e) => {
           if (e?.pageX > 750 && e?.pageX < 1400) {
             if (e?.pageY > 200 && e?.pageY < 230) {
             setOpositi(1)

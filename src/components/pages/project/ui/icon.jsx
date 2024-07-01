@@ -1,6 +1,6 @@
 export const Logoicos = ({opacity}) => {
     return (
-        <svg width="1920" height="1019" viewBox="0 0 1920 1019" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="1900" style={{width:"100%" ,maxWidth:"1900px"}} height="1019" viewBox="0 0 1920 1019" fill="none" xmlns="http://www.w3.org/2000/svg">
 {/* <mask id="mask0_428_48" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1019">
 <rect width="1920" height="1019" fill="#D9D9D9"/>
 </mask> */}
