@@ -35,25 +35,13 @@ export default function HomeSity() {
               семей и молодых профессионалов.{" "}
             </p>
           </div>
-          <div className="w-full max-w-[600px] h-[400px] md:h-[700px] relative mt-[-150px] px-[20px] md:px-[0] md:mt-[0]">
+          <div className="w-full max-w-[600px]  px-[20px]">
             <Image
-              className={`w-[145px] md:w-[280px] absolute left-[20px] md:left-0 top-0`}
-              src="/logoa.png"
-              width={280}
-              height={457}
+              src="/Group48098623.png"
+              width={602}
+              height={650}
             />
-            <Image
-              className="w-[186px] md:w-[310px] absolute left-[60px] md:left-[9px] top-[70px] md:top-[130px]  object-cover h-[266px] md:h-[515px]"
-              src="/day1.png"
-              width={360}
-              height={515}
-            />
-            <Image
-              className="w-[231px] md:w-[446px] absolute top-[100px] md:top-[194px] right-[20px] md:right-0  "
-              src="/Rectangle1.png"
-              width={446}
-              height={405}
-            />
+         
           </div>
         </div>
       </Contianer>
