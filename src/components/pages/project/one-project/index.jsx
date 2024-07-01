@@ -3,9 +3,10 @@ import Image from 'next/image'
 import {useState} from 'react'
 import AboutUs from '../ui/about-us'
 import { Logoicos } from '../ui/icon'
-
+import { useRouter } from 'next/router';
 export default function ProductOnePage() {
-  const [opacity,setOpositi] = useState(0)
+  const [opacity, setOpositi] = useState(0)
+  const router = useRouter()
   return (
     <>
         <div className='w-full relative'>
@@ -19,7 +20,11 @@ export default function ProductOnePage() {
                 height={811 }
         />
         
-        <div className='absolute  top-0  left-0  w-full '  onMouseMove={(e) => {
+        <div className='absolute  top-0  left-0  w-full ' onClick={() => {
+          if (opacity) {
+            router.push("/project-single")
+          }
+        }}  onMouseMove={(e) => {
           if (e?.pageX > 750 && e?.pageX < 1400) {
             if (e?.pageY > 200 && e?.pageY < 230) {
             setOpositi(1)
@@ -65,6 +70,7 @@ export default function ProductOnePage() {
             }else{
               setOpositi(0)
             }
+            
           } else {
             
           setOpositi(0)
