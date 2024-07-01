@@ -18,34 +18,34 @@ const navbar = [
   {
     id: 2,
     label: "Концепция",
-    link: "#Complex"
+    link: "/#Complex"
   },
   {
     id: 3,
     label: "Планировки",
-    link: "#plan"
+    link: "/#plan"
   },
   {
     id: 4,
     label: "Локация",
-    link: "#About"
+    link: "/#About"
   }
 ];
 const navbar1 = [
   {
     id: 1,
     label: "О нас",
-    link: "#About"
+    link: "/#About"
   },
   {
     id: 2,
     label: "Галерея",
-    link: "#Phone"
+    link: "/#Phone"
   },
   {
     id: 3,
     label: "Контакты",
-    link: "#About"
+    link: "/#About"
   },
   {
     id: 4,
@@ -81,8 +81,8 @@ export default function Header() {
           <p class="text-white text-lg font-medium mb-[23px] tablet:hidden">
             г.Ташкент
           </p>
-          <div
-            class="px-[21px] lg:px-[30px] py-[10px] lg:pb-[18px] "
+          <Link href='/'
+            class="px-[21px] lg:px-[30px] py-[10px] lg:pb-[18px]  inline-block"
             style={{ background: "#163B37" }}
           >
             <Image
@@ -91,7 +91,7 @@ export default function Header() {
               width={120}
               height={105}
             />
-          </div>
+          </Link>
         </div>
         <div className="flex  flex-col items-end">
           <div className="flex justify-end gap-[4px]  pb-[23px]">
