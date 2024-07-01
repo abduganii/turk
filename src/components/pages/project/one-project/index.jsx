@@ -19,7 +19,7 @@ export default function ProductOnePage() {
                 height={811 }
         />
         
-        <div className='absolute top-[123px] right-[472px]' onMouseMove={(e) => {
+        <div className='absolute  top-[123px] ' style={{"width":"35.5%" , right:"25%"}} onMouseMove={(e) => {
           console.log(e?.pageY)
           if (e?.pageX > 750 && e?.pageX < 1400) {
             if (e?.pageY > 200 && e?.pageY < 230) {
