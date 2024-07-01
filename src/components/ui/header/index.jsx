@@ -13,7 +13,7 @@ const navbar = [
   {
     id: 1,
     label: "Проекты",
-    link: "#project"
+    link: "/project"
   },
   {
     id: 2,
