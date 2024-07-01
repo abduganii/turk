@@ -19,9 +19,15 @@ export default function ProductPage() {
     }
   };
 
-  const handleClick = () => {
-    router.push('/project-one');
-  };
+  const handleClick = (event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+
+    if (mouseX <= 400) {
+      router.push('/project-one');
+    } else {
+    }
+  }
 
   return (
     <>
