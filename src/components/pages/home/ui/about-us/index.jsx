@@ -15,7 +15,7 @@ const AboutUs = () => {
             Istanbul City
           </h3>
           <p class="w-full max-w-[343px] text-white text-[13px] sm:text-base font-normal mt-[20px] leading-[13px] sm:leading-7">
-            c.Tashkent Uzbekistan Abdulla Qodiriy ko’chasi 65 A
+          — Узбекистан, г.Ташкент, Абдулла Каххор 49
           </p>
         </div>
         <Image
