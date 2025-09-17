@@ -23,7 +23,8 @@ export default function Footer() {
               Address
             </p>
             <div class="opacity-40 text-white text-[13px] font-medium">
-              Labzak Street, Tashkent, 84/4, 100028
+            — Узбекистан, г.Ташкент, Абдулла Каххор 49
+            
             </div>
           </div>
           <div className="sm:hidden">
